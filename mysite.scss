@@ -1,0 +1,35 @@
+.cardList {
+  display:inline-block;
+  display:flex;
+  flex-direction: column;
+}
+
+// @include media-breakpoint-down(xs) { ... }
+// @include media-breakpoint-down(sm) { ... }
+// @include media-breakpoint-down(md) { ... }
+// @include media-breakpoint-down(lg) { ... }
+
+.main-text
+{
+    position: absolute;
+    top:40%;
+    width: 100%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
